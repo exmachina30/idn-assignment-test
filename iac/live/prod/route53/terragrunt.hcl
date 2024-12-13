@@ -11,7 +11,7 @@ dependency "s3" {
 }
 
 inputs = {
-  custom_domain    = "newtimmy6.serverless.my.id"
+  custom_domain    = "new-timmy-6.serverless.my.id"
   website_endpoint = dependency.cloudfront.outputs.cloudfront_domain_name
   website_zone_id  = "<hosted_zone_id>"
 }

@@ -1,7 +1,7 @@
 variable "region" {
   description = "AWS region"
   type        = string
-  default     = "us-east-2"
+  default     = "us-east-1"
 }
 
 variable "bucket_name" {
@@ -17,7 +17,7 @@ variable "website_endpoint" {
 variable "alternate_domain_names" {
   description = "Alternate domain names"
   type        = list(string)
-  default     = ["newtimmy6.serverless.my.id"] 
+  default     = ["new-timmy-6.serverless.my.id","newtimmy6.serverless.my.id"] 
 }
 
 variable "acm_certificate_arn" {
