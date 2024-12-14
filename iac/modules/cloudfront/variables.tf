@@ -17,7 +17,7 @@ variable "website_endpoint" {
 variable "alternate_domain_names" {
   description = "Alternate domain names"
   type        = list(string)
-  default     = ["new-timmy-6.serverless.ink","newtimmy6.serverless.ink"] 
+  default     = ["new-timmy-6.serverlessmy.id","newtimmy6.serverlessmy.id"] 
 }
 
 variable "acm_certificate_arn" {
