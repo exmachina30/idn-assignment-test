@@ -1,9 +1,9 @@
 remote_state {
   backend = "s3"
   config = {
-    bucket         = "newtimmy6-prod-tfstate"
+    bucket         = "timmy-prod-tfstate"
     key            = "${path_relative_to_include()}/terraform.tfstate"
-    region         = "us-east-1"
+    region         = "ap-southeast-1"
     encrypt        = true
   }
 }

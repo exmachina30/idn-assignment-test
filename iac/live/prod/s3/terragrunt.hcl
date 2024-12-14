@@ -3,8 +3,8 @@ terraform {
 }
 
 inputs = {
-  bucket_name = "new-timmy-6.serverless.my.id"
-  region      = "us-east-1"
+  bucket_name = "newtimmy6.serverless.ink"
+  region      = "ap-southeast-1"
   tags = {
     Environment = "production"
     Project     = "static-website"
